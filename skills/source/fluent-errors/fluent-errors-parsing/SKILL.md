@@ -1,6 +1,10 @@
 ---
 name: fluent-errors-parsing
-description: "Diagnoses and resolves FTL parse errors including indentation mistakes with tabs vs spaces, missing default variant in selectors, special character restrictions at line start, comment space requirement, identifier format violations, junk entry recovery, and @fluent/syntax FluentParser for strict validation. Activates when encountering FTL syntax errors, debugging broken translations, or validating FTL files."
+description: >
+  Use when encountering FTL parse errors or debugging broken translations that fail to load.
+  Prevents silent failures from indentation mistakes, missing default variants, and identifier violations.
+  Covers tabs vs spaces, comment syntax, junk entry recovery, and @fluent/syntax FluentParser validation.
+  Keywords: FTL parse error, indentation, default variant, junk entry, FluentParser, syntax validation.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Fluent Syntax 1.0, @fluent/bundle 0.18+."
 metadata:

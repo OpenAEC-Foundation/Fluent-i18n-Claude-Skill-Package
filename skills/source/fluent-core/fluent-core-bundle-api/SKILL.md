@@ -1,6 +1,9 @@
 ---
 name: fluent-core-bundle-api
-description: "Guides @fluent/bundle API including FluentBundle constructor with options, addResource for loading FTL, getMessage and hasMessage for retrieval, formatPattern for rendering translations, FluentResource parsing, error handling modes, custom functions, and the FluentType hierarchy. Activates when using FluentBundle, formatting messages, handling translation errors, or registering custom Fluent functions."
+description: >
+  Use when using FluentBundle or FluentResource API to load, retrieve, or format translations. Prevents incorrect addResource usage, missing error handling, and wrong formatPattern calls.
+  Covers FluentBundle constructor, getMessage, hasMessage, formatPattern, custom functions, and FluentType hierarchy.
+  Keywords: FluentBundle, FluentResource, addResource, formatPattern, getMessage, custom functions, FluentType.
 license: MIT
 compatibility: "Designed for Claude Code. Requires @fluent/bundle 0.18+."
 metadata:

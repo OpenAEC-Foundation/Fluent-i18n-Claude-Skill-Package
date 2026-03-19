@@ -71,4 +71,13 @@ All skills in this package MUST be verified against these approved sources. No o
 
 | Technology | Date | Action | Notes |
 |------------|------|--------|-------|
-| Project Fluent | 2026-03-19 | Initial setup | All URLs pending verification |
+| Project Fluent Website | 2026-03-19 | Verified | FTL syntax guide, specification overview |
+| Fluent Syntax Guide | 2026-03-19 | Verified | Complete FTL syntax tutorial confirmed current |
+| FTL Specification | 2026-03-19 | Verified | Fluent Syntax 1.0 formal spec |
+| fluent.js Monorepo | 2026-03-19 | Verified | @fluent/bundle 0.19.1, @fluent/react 0.15.2, @fluent/langneg 0.7.0 |
+| @fluent/bundle (npm) | 2026-03-19 | Verified | FluentBundle, FluentResource, formatPattern API |
+| @fluent/react (npm) | 2026-03-19 | Verified | LocalizationProvider, Localized, useLocalization API |
+| @fluent/langneg (npm) | 2026-03-19 | Verified | negotiateLanguages API |
+| @fluent/syntax (npm) | 2026-03-19 | Verified | FluentParser, FluentSerializer API |
+| fluent.js Issues | 2026-03-19 | Verified | Anti-patterns sourced from real issues |
+| MDN Intl Reference | 2026-03-19 | Verified | Intl.NumberFormat, Intl.DateTimeFormat references |

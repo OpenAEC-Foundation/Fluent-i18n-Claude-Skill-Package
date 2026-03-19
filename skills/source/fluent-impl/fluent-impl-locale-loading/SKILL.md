@@ -1,6 +1,10 @@
 ---
 name: fluent-impl-locale-loading
-description: "Guides FTL file loading patterns including async fetch-based loading, lazy bundle generation with generators, CachedSyncIterable for caching, multiple FTL files per locale, file organization conventions, and code-splitting strategies. Activates when loading FTL files from a server, organizing translation files, implementing lazy locale loading, or optimizing translation bundle size."
+description: >
+  Use when loading FTL locale files at runtime via fetch, dynamic import, or lazy bundle generation.
+  Prevents stale translation caches and bundle loading race conditions in multi-locale apps.
+  Covers async fetch loading, generator patterns, CachedSyncIterable, file organization, and code-splitting.
+  Keywords: fetch FTL, FluentResource, CachedSyncIterable, lazy loading, bundle generation, code-splitting.
 license: MIT
 compatibility: "Designed for Claude Code. Requires @fluent/bundle 0.18+."
 metadata:

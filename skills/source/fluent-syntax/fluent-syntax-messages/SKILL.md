@@ -1,6 +1,9 @@
 ---
 name: fluent-syntax-messages
-description: "Guides FTL message syntax including simple and multiline messages, placeables with variable references, message references, text elements, whitespace and indentation rules, the dedentation algorithm, three-level comment system, and special character handling. Activates when writing FTL messages, formatting multiline text, using variables in translations, or understanding FTL whitespace rules."
+description: >
+  Use when writing FTL messages, placeables, or multiline translations. Prevents whitespace and indentation errors caused by the dedentation algorithm.
+  Covers simple and multiline messages, variable references, message references, comment system, and special character handling.
+  Keywords: FTL messages, placeables, multiline, dedentation, variables, message references, comments.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Fluent Syntax 1.0."
 metadata:

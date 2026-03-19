@@ -1,6 +1,10 @@
 ---
 name: fluent-impl-react
-description: "Guides @fluent/react integration including LocalizationProvider setup, Localized component with id/vars/elems/attrs props, DOM overlays for rich translated markup, useLocalization hook for imperative formatting, ReactLocalization class API, bundle generation patterns, custom parseMarkup for SSR, and withLocalization HOC deprecation. Activates when integrating Fluent with React, rendering translations in components, using DOM overlays, or setting up the localization provider."
+description: >
+  Use when integrating Project Fluent with React via @fluent/react for translated UI components.
+  Prevents misconfigured LocalizationProvider, broken DOM overlays, and incorrect Localized prop usage.
+  Covers provider setup, Localized component, useLocalization hook, DOM overlays, and bundle generation.
+  Keywords: LocalizationProvider, Localized, useLocalization, DOM overlay, ReactLocalization, @fluent/react.
 license: MIT
 compatibility: "Designed for Claude Code. Requires @fluent/react 0.15+, @fluent/bundle 0.16+, React 16.8+."
 metadata:

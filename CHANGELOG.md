@@ -17,7 +17,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Definitive masterplan with 16 skills across 6 batches
 - INDEX.md with complete skill catalog
 - 11 architectural decisions (D-001 through D-011)
-- 3 lessons learned (L-001 through L-003)
+- 6 lessons learned (L-001 through L-006)
 - Approved sources registry with 15+ official URLs
 - All skills verified against official Fluent specification and npm packages
 

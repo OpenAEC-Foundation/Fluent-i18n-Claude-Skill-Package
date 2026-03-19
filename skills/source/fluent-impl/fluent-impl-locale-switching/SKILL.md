@@ -1,6 +1,10 @@
 ---
 name: fluent-impl-locale-switching
-description: "Guides dynamic locale switching in Fluent React apps including the React state pattern for re-localization, negotiateLanguages integration for fallback chains, user preference persistence in localStorage, server-side locale detection with acceptedLanguages, and re-rendering strategies. Activates when implementing a language switcher, persisting user locale preferences, or handling locale changes without page reload."
+description: >
+  Use when implementing runtime locale or language switching in Fluent React applications.
+  Prevents full page reloads and broken fallback chains during dynamic language changes.
+  Covers React state re-localization, negotiateLanguages integration, localStorage persistence, and server-side detection.
+  Keywords: language switcher, negotiateLanguages, localStorage, acceptedLanguages, re-render, fallback chain.
 license: MIT
 compatibility: "Designed for Claude Code. Requires @fluent/react 0.15+, @fluent/langneg 0.7+."
 metadata:

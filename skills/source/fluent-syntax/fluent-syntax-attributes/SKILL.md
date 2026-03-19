@@ -1,6 +1,10 @@
 ---
 name: fluent-syntax-attributes
-description: "Guides FTL attributes including the .attribute syntax on messages and terms, value-less messages with only attributes, compound messages with value and attributes, accessing attributes via getMessage().attributes in TypeScript, and the Localized attrs prop in React. Activates when working with HTML element attributes, form field labels, or multi-value messages in FTL."
+description: >
+  Use when adding attributes to FTL messages or terms for HTML element properties, form labels, or ARIA values.
+  Prevents missing .attribute syntax errors and incorrect attribute access in TypeScript and React.
+  Covers message attributes, term attributes, value-less messages, compound messages, and the Localized attrs prop.
+  Keywords: FTL attributes, .placeholder, .aria-label, getMessage, attrs, compound message.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Fluent Syntax 1.0, @fluent/bundle 0.18+."
 metadata:

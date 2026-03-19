@@ -1,6 +1,10 @@
 ---
 name: fluent-agents-review
-description: "Validates generated FTL and TypeScript code for Project Fluent correctness by checking FTL syntax compliance, whitespace rules, select expression structure, term visibility, API usage patterns, error handling, React integration, and known anti-patterns. Activates when reviewing Fluent code, validating FTL files, checking TypeScript integration code, or auditing a Fluent project for correctness."
+description: >
+  Use when reviewing or validating generated FTL and TypeScript Fluent code for correctness.
+  Prevents shipping broken translations, wrong API usage, and common Fluent anti-patterns.
+  Covers FTL syntax compliance, whitespace rules, select expressions, term visibility, and React integration.
+  Keywords: code review, FTL validation, anti-patterns, select expression, term visibility, API audit.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Fluent Syntax 1.0, @fluent/bundle 0.18+."
 metadata:

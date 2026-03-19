@@ -1,6 +1,10 @@
 ---
 name: fluent-syntax-functions
-description: "Guides FTL built-in functions NUMBER() and DATETIME() with all Intl formatting options, custom function registration via FluentBundle constructor, the FluentFunction type signature, function call grammar, and Unicode bidirectional text isolation. Activates when formatting numbers, dates, currencies in FTL, creating custom Fluent functions, or handling RTL/LTR text mixing."
+description: >
+  Use when formatting numbers, dates, or currencies in FTL or registering custom Fluent functions.
+  Prevents incorrect NUMBER()/DATETIME() option usage and malformed custom function signatures.
+  Covers built-in functions, Intl formatting options, custom function registration, and bidirectional text isolation.
+  Keywords: NUMBER, DATETIME, FluentFunction, Intl.NumberFormat, custom functions, RTL, useGrouping.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Fluent Syntax 1.0, @fluent/bundle 0.18+."
 metadata:

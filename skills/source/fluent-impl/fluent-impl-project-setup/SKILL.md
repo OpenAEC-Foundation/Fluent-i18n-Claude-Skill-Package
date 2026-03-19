@@ -1,6 +1,10 @@
 ---
 name: fluent-impl-project-setup
-description: "Guides complete Fluent project setup including npm dependency installation, directory structure for FTL files and TypeScript code, minimal working FTL+TypeScript+React configuration, semantic message ID conventions, @fluent/syntax for FTL validation tooling, and file naming best practices. Activates when starting a new Fluent project, adding Fluent to an existing app, or scaffolding the localization infrastructure."
+description: >
+  Use when setting up a new Project Fluent project from scratch or adding Fluent to an existing app.
+  Prevents misconfigured dependencies, wrong directory structures, and missing FTL validation tooling.
+  Covers npm installation, FTL+TypeScript+React configuration, message ID conventions, and file naming.
+  Keywords: @fluent/bundle, @fluent/react, project setup, FTL directory structure, localization scaffold.
 license: MIT
 compatibility: "Designed for Claude Code. Requires @fluent/bundle 0.18+, @fluent/react 0.15+."
 metadata:

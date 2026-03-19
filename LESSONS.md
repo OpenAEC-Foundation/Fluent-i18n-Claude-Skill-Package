@@ -49,3 +49,19 @@ Observations and findings captured during skill package development.
 - **Date**: 2026-03-19
 - **Context**: One agent hit a rate limit during Batch 4.
 - **Finding**: Because agents write files as they go (not at the end), a rate limit after file creation means the skill is complete even though the agent reports failure. Always check if files exist before re-running a failed agent.
+
+---
+
+## L-007: Every Phase MUST Get Its Own Git Commit
+
+- **Date**: 2026-03-19
+- **Context**: Compliance audit revealed Phases 1, 2, 3, and Batch 1 were all in a single commit.
+- **Finding**: Squashing multiple phases into one commit makes compliance auditing impossible — there is no way to verify that research preceded skill creation, or that the masterplan was refined before execution. Even when phases complete quickly in a single session, each phase MUST get its own commit. This is not retroactively fixable without destructive git operations.
+
+---
+
+## L-008: YAML Descriptions Must Use Folded Block Scalar From Day One
+
+- **Date**: 2026-03-19
+- **Context**: All 16 skills used quoted strings for YAML descriptions instead of folded block scalar (`>`).
+- **Finding**: The WORKFLOW.md standard requires `description: >` format with "Use when..." trigger, anti-pattern warning, scope, and keywords. When agent prompts do not explicitly specify the YAML format, agents default to quoted strings. Agent prompts MUST include the exact YAML format template to prevent systematic non-compliance.

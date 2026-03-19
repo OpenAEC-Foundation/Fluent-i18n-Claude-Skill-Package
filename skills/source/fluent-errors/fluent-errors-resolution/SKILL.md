@@ -1,6 +1,10 @@
 ---
 name: fluent-errors-resolution
-description: "Diagnoses and resolves Fluent runtime resolution errors including missing messages, missing variables, missing terms, type mismatches, cyclic references, excessive placeables, the two error handling modes (throw vs collect), fallback behavior with {???} placeholders, and debugging workflow for missing translations. Activates when encountering runtime translation errors, debugging missing or broken translations, or implementing error handling for Fluent formatting."
+description: >
+  Use when FluentBundle.formatPattern returns unexpected results, fallback values, or {???} placeholders.
+  Prevents undiagnosed runtime errors from missing messages, variables, terms, and cyclic references.
+  Covers throw vs collect error modes, type mismatches, excessive placeables, and fallback debugging.
+  Keywords: formatPattern, resolution error, missing message, cyclic reference, fallback, error handling.
 license: MIT
 compatibility: "Designed for Claude Code. Requires @fluent/bundle 0.18+."
 metadata:
