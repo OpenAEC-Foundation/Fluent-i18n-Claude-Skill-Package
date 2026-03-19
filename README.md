@@ -1,7 +1,7 @@
 # Fluent i18n Claude Skill Package
 
 <p align="center">
-  <strong style="font-size: 1.5em;">Deterministic Claude AI Skills for Project Fluent (Mozilla i18n)</strong>
+  <img src="docs/social-preview.png" alt="16 Deterministic Skills for Project Fluent i18n" width="100%">
 </p>
 
 ![Claude Code Ready](https://img.shields.io/badge/Claude_Code-Ready-blue?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+)
