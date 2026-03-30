@@ -4,7 +4,9 @@ description: >
   Use when encountering FTL parse errors or debugging broken translations that fail to load.
   Prevents silent failures from indentation mistakes, missing default variants, and identifier violations.
   Covers tabs vs spaces, comment syntax, junk entry recovery, and @fluent/syntax FluentParser validation.
-  Keywords: FTL parse error, indentation, default variant, junk entry, FluentParser, syntax validation.
+  Keywords: FTL parse error, indentation, default variant, junk entry,
+  FluentParser, syntax validation, FTL file broken, translation not loading,
+  syntax error in FTL, whitespace error.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Fluent Syntax 1.0, @fluent/bundle 0.18+."
 metadata:

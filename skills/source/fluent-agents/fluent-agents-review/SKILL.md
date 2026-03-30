@@ -4,7 +4,9 @@ description: >
   Use when reviewing or validating generated FTL and TypeScript Fluent code for correctness.
   Prevents shipping broken translations, wrong API usage, and common Fluent anti-patterns.
   Covers FTL syntax compliance, whitespace rules, select expressions, term visibility, and React integration.
-  Keywords: code review, FTL validation, anti-patterns, select expression, term visibility, API audit.
+  Keywords: code review, FTL validation, anti-patterns, select expression,
+  term visibility, API audit, check translations, review FTL file,
+  validate i18n code, translation quality.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Fluent Syntax 1.0, @fluent/bundle 0.18+."
 metadata:

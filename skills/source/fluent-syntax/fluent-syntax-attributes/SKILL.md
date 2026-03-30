@@ -4,7 +4,9 @@ description: >
   Use when adding attributes to FTL messages or terms for HTML element properties, form labels, or ARIA values.
   Prevents missing .attribute syntax errors and incorrect attribute access in TypeScript and React.
   Covers message attributes, term attributes, value-less messages, compound messages, and the Localized attrs prop.
-  Keywords: FTL attributes, .placeholder, .aria-label, getMessage, attrs, compound message.
+  Keywords: FTL attributes, .placeholder, .aria-label, getMessage, attrs,
+  compound message, translate placeholder, translate aria label, HTML attributes,
+  input translation.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Fluent Syntax 1.0, @fluent/bundle 0.18+."
 metadata:

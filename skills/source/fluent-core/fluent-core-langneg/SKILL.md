@@ -3,7 +3,9 @@ name: fluent-core-langneg
 description: >
   Use when implementing language negotiation or locale fallback chains with @fluent/langneg. Prevents wrong strategy selection and broken fallback behavior.
   Covers negotiateLanguages() strategies, BCP 47 locale handling, acceptedLanguages() for HTTP headers, and fallback chain construction.
-  Keywords: negotiateLanguages, @fluent/langneg, BCP 47, Accept-Language, locale fallback, filtering, matching, lookup.
+  Keywords: negotiateLanguages, @fluent/langneg, BCP 47, Accept-Language,
+  locale fallback, filtering, matching, lookup, detect user language,
+  browser language, language fallback, pick best language.
 license: MIT
 compatibility: "Designed for Claude Code. Requires @fluent/langneg 0.7+."
 metadata:

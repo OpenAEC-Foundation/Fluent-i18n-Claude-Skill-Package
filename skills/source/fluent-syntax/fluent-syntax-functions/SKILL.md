@@ -4,7 +4,9 @@ description: >
   Use when formatting numbers, dates, or currencies in FTL or registering custom Fluent functions.
   Prevents incorrect NUMBER()/DATETIME() option usage and malformed custom function signatures.
   Covers built-in functions, Intl formatting options, custom function registration, and bidirectional text isolation.
-  Keywords: NUMBER, DATETIME, FluentFunction, Intl.NumberFormat, custom functions, RTL, useGrouping.
+  Keywords: NUMBER, DATETIME, FluentFunction, Intl.NumberFormat, custom functions,
+  RTL, useGrouping, format number, format date, currency, custom formatting,
+  right-to-left text.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Fluent Syntax 1.0, @fluent/bundle 0.18+."
 metadata:

@@ -3,7 +3,9 @@ name: fluent-syntax-terms
 description: >
   Use when defining or referencing terms (-term-name) in FTL for brand names or shared vocabulary. Prevents accidental runtime API access to terms, which is never allowed.
   Covers term syntax, parameterized terms with named arguments, term attributes for grammatical metadata, and visibility rules.
-  Keywords: FTL terms, -term-name, parameterized terms, term attributes, brand names, grammatical cases, runtime visibility.
+  Keywords: FTL terms, -term-name, parameterized terms, term attributes,
+  brand names, grammatical cases, runtime visibility, reusable translation,
+  shared vocabulary, brand name translation, term syntax.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Fluent Syntax 1.0."
 metadata:

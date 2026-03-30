@@ -4,7 +4,9 @@ description: >
   Use when implementing runtime locale or language switching in Fluent React applications.
   Prevents full page reloads and broken fallback chains during dynamic language changes.
   Covers React state re-localization, negotiateLanguages integration, localStorage persistence, and server-side detection.
-  Keywords: language switcher, negotiateLanguages, localStorage, acceptedLanguages, re-render, fallback chain.
+  Keywords: language switcher, negotiateLanguages, localStorage,
+  acceptedLanguages, re-render, fallback chain, change language at runtime,
+  language dropdown, switch locale without reload, remember language.
 license: MIT
 compatibility: "Designed for Claude Code. Requires @fluent/react 0.15+, @fluent/langneg 0.7+."
 metadata:

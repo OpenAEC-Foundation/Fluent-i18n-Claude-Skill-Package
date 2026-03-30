@@ -3,7 +3,9 @@ name: fluent-core-architecture
 description: >
   Use when setting up or understanding Project Fluent architecture. Prevents misconceptions about the bundle-resource-message model and asymmetric localization.
   Covers design philosophy, FTL format overview, and how Fluent differs from ICU MessageFormat.
-  Keywords: Project Fluent, FTL, FluentBundle, FluentResource, asymmetric localization, i18n architecture.
+  Keywords: Project Fluent, FTL, FluentBundle, FluentResource, asymmetric
+  localization, i18n architecture, what is Fluent, how Fluent works,
+  Fluent vs ICU, translation system.
 license: MIT
 compatibility: "Designed for Claude Code. Requires @fluent/bundle 0.18+."
 metadata:

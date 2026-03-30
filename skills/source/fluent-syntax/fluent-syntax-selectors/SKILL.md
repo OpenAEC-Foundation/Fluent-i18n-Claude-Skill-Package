@@ -3,7 +3,9 @@ name: fluent-syntax-selectors
 description: >
   Use when writing select expressions, plural forms, or variant-based translations in FTL. Prevents missing default variants and incorrect CLDR plural category usage.
   Covers cardinal and ordinal plurals, exact numeric matches, string selectors, and nested selectors.
-  Keywords: select expression, CLDR plural categories, variants, default variant, cardinal, ordinal, gender selector.
+  Keywords: select expression, CLDR plural categories, variants, default variant,
+  cardinal, ordinal, gender selector, plural forms, 1 item vs 2 items,
+  handle plurals, gender-specific translation.
 license: MIT
 compatibility: "Designed for Claude Code. Requires Fluent Syntax 1.0."
 metadata:

@@ -4,7 +4,9 @@ description: >
   Use when FluentBundle.formatPattern returns unexpected results, fallback values, or {???} placeholders.
   Prevents undiagnosed runtime errors from missing messages, variables, terms, and cyclic references.
   Covers throw vs collect error modes, type mismatches, excessive placeables, and fallback debugging.
-  Keywords: formatPattern, resolution error, missing message, cyclic reference, fallback, error handling.
+  Keywords: formatPattern, resolution error, missing message, cyclic reference,
+  fallback, error handling, translation shows ???, missing translation,
+  wrong output, variable not replaced.
 license: MIT
 compatibility: "Designed for Claude Code. Requires @fluent/bundle 0.18+."
 metadata:

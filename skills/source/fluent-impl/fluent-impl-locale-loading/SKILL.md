@@ -4,7 +4,9 @@ description: >
   Use when loading FTL locale files at runtime via fetch, dynamic import, or lazy bundle generation.
   Prevents stale translation caches and bundle loading race conditions in multi-locale apps.
   Covers async fetch loading, generator patterns, CachedSyncIterable, file organization, and code-splitting.
-  Keywords: fetch FTL, FluentResource, CachedSyncIterable, lazy loading, bundle generation, code-splitting.
+  Keywords: fetch FTL, FluentResource, CachedSyncIterable, lazy loading,
+  bundle generation, code-splitting, load translations at runtime,
+  async locale loading, dynamic import translations.
 license: MIT
 compatibility: "Designed for Claude Code. Requires @fluent/bundle 0.18+."
 metadata:

@@ -4,7 +4,9 @@ description: >
   Use when setting up a new Project Fluent project from scratch or adding Fluent to an existing app.
   Prevents misconfigured dependencies, wrong directory structures, and missing FTL validation tooling.
   Covers npm installation, FTL+TypeScript+React configuration, message ID conventions, and file naming.
-  Keywords: @fluent/bundle, @fluent/react, project setup, FTL directory structure, localization scaffold.
+  Keywords: @fluent/bundle, @fluent/react, project setup, FTL directory
+  structure, localization scaffold, add i18n to project, install Fluent,
+  internationalize my app, translation setup.
 license: MIT
 compatibility: "Designed for Claude Code. Requires @fluent/bundle 0.18+, @fluent/react 0.15+."
 metadata:

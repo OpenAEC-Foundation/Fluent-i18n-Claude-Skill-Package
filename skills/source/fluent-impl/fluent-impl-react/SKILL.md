@@ -4,7 +4,9 @@ description: >
   Use when integrating Project Fluent with React via @fluent/react for translated UI components.
   Prevents misconfigured LocalizationProvider, broken DOM overlays, and incorrect Localized prop usage.
   Covers provider setup, Localized component, useLocalization hook, DOM overlays, and bundle generation.
-  Keywords: LocalizationProvider, Localized, useLocalization, DOM overlay, ReactLocalization, @fluent/react.
+  Keywords: LocalizationProvider, Localized, useLocalization, DOM overlay,
+  ReactLocalization, @fluent/react, translate React component, i18n in React,
+  localize React app, Fluent with React.
 license: MIT
 compatibility: "Designed for Claude Code. Requires @fluent/react 0.15+, @fluent/bundle 0.16+, React 16.8+."
 metadata:

@@ -4,7 +4,9 @@ description: >
   Use when scaffolding a new Fluent i18n project or generating boilerplate for React localization.
   Prevents incomplete setups by generating all required files with correct configuration.
   Covers FTL files per locale, FluentBundle config, LocalizationProvider, locale negotiation, and async loading.
-  Keywords: scaffold, boilerplate, LocalizationProvider, @fluent/langneg, locale switching, code generation.
+  Keywords: scaffold, boilerplate, LocalizationProvider, @fluent/langneg,
+  locale switching, code generation, new i18n project, add translations,
+  setup localization, multi-language app.
 license: MIT
 compatibility: "Designed for Claude Code. Requires @fluent/bundle 0.18+, @fluent/react 0.15+, @fluent/langneg 0.7+."
 metadata:
