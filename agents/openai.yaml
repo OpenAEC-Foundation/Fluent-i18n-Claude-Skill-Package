@@ -1,0 +1,5 @@
+# OpenAI Codex skill discovery
+name: fluent-i18n-claude-skill-package
+description: >
+  16 deterministic Claude AI skills for Project Fluent (Mozilla i18n), FTL syntax and TypeScript integration coverage
+skills_directory: ./skills/source

@@ -1,0 +1,41 @@
+{
+  "name": "@openaec/fluent-i18n-claude-skill-package",
+  "version": "1.1.0",
+  "description": "16 deterministic Claude AI skills for Project Fluent (Mozilla i18n) — FTL syntax + TypeScript integration coverage",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenAEC-Foundation/Fluent-i18n-Claude-Skill-Package"
+  },
+  "keywords": [
+    "agent-skills",
+    "agentskills",
+    "claude-skills",
+    "fluent",
+    "i18n",
+    "localization",
+    "ftl",
+    "mozilla",
+    "deterministic"
+  ],
+  "agents": {
+    "skills": [
+      { "name": "fluent-agents-project-scaffolder", "path": "./skills/source/fluent-agents/fluent-agents-project-scaffolder" },
+      { "name": "fluent-agents-review", "path": "./skills/source/fluent-agents/fluent-agents-review" },
+      { "name": "fluent-core-architecture", "path": "./skills/source/fluent-core/fluent-core-architecture" },
+      { "name": "fluent-core-bundle-api", "path": "./skills/source/fluent-core/fluent-core-bundle-api" },
+      { "name": "fluent-core-langneg", "path": "./skills/source/fluent-core/fluent-core-langneg" },
+      { "name": "fluent-errors-parsing", "path": "./skills/source/fluent-errors/fluent-errors-parsing" },
+      { "name": "fluent-errors-resolution", "path": "./skills/source/fluent-errors/fluent-errors-resolution" },
+      { "name": "fluent-impl-locale-loading", "path": "./skills/source/fluent-impl/fluent-impl-locale-loading" },
+      { "name": "fluent-impl-locale-switching", "path": "./skills/source/fluent-impl/fluent-impl-locale-switching" },
+      { "name": "fluent-impl-project-setup", "path": "./skills/source/fluent-impl/fluent-impl-project-setup" },
+      { "name": "fluent-impl-react", "path": "./skills/source/fluent-impl/fluent-impl-react" },
+      { "name": "fluent-syntax-attributes", "path": "./skills/source/fluent-syntax/fluent-syntax-attributes" },
+      { "name": "fluent-syntax-functions", "path": "./skills/source/fluent-syntax/fluent-syntax-functions" },
+      { "name": "fluent-syntax-messages", "path": "./skills/source/fluent-syntax/fluent-syntax-messages" },
+      { "name": "fluent-syntax-selectors", "path": "./skills/source/fluent-syntax/fluent-syntax-selectors" },
+      { "name": "fluent-syntax-terms", "path": "./skills/source/fluent-syntax/fluent-syntax-terms" }
+    ]
+  }
+}
